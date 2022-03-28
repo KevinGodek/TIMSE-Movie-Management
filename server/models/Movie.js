@@ -13,7 +13,7 @@ const movieSchema = new Schema({
     },
     // saved movie id from Tmdb
     movieId: {
-        type: String,
+        type: String, 
         required: true,
     },
     image: {

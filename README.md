@@ -3,8 +3,8 @@
 
 ## Purpose
 AS AN avid reader
-I WANT to search for new books to read
-SO THAT I can keep a list of books to purchase
+I WANT to search for new movies to read
+SO THAT I can keep a list of movies to purchase
 
 ## Table of Contents
 * [Installation](#Installation)
@@ -20,7 +20,7 @@ npm install
 ```
 
 ## Description
-Google search enginge for books, user can create an account and save a list of books and delete from list.
+Google search enginge for movies, user can create an account and save a list of movies and delete from list.
 [Deploy Here!](https://aqueous-bayou-37108.herokuapp.com/)
 
 
@@ -30,6 +30,4 @@ Google search enginge for books, user can create an account and save a list of b
 
 
 ## Credits
-Coded by [Jessica Coneff](https://github.com/jconeff),
-UCF
 [Starter code](https://github.com/coding-boot-camp/solid-broccoli)

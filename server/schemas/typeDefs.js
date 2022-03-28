@@ -5,7 +5,7 @@ const typeDefs = gql`
         _id: ID
         username: String
         email: String
-        movieCount: Int
+        movieCount: String
         savedMovies: [Movie]
     }
 
