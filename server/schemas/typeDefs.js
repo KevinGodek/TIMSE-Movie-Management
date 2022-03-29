@@ -10,8 +10,8 @@ const typeDefs = gql`
     }
 
     type Movie {
-        movieId: String!
-        authors: [String]
+        movieId: Int
+        release: [String]
         description: String
         title: String
         image: String
@@ -23,8 +23,8 @@ const typeDefs = gql`
     }
 
     input MovieInput {
-        movieId: String!
-        authors: [String]
+        movieId: Int
+        release: [String]
         description: String
         title: String
         image: String

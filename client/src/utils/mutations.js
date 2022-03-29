@@ -33,7 +33,7 @@ export const SAVE_MOVIE = gql`
         movieCount
         savedMovies {
                 movieId
-                authors
+                release
                 description
                 title
                 image
@@ -55,7 +55,7 @@ export const REMOVE_MOVIE = gql`
                 description
                 title
                 image
-                link
+                
             }
         }
     }

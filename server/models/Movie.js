@@ -19,9 +19,9 @@ const movieSchema = new Schema({
     image: {
         type: String,
     },
-    link: {
-        type: String,
-    },
+    // link: {
+    //     type: String,
+    // },
     title: {
         type: String,
         required: true,
