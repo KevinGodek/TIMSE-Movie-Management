@@ -62,7 +62,7 @@ const SavedMovies = () => {
                     {user.savedMovies.map((movie) => {
                         return (
                             <Card key={movie.movieId} border='dark'>
-                                {movie.image ? <Card.Img src={movie.image} alt={`The cover for ${movie.title}`} variant='top' /> : null}
+                                {movie.image ? <Card.Img src={`https://image.tmdb.org/t/p/w500${movie.image}`} alt={`The cover for ${movie.title}`} variant='top' /> : null}
                                 <Card.Body>
                                     <Card.Title>{movie.title}</Card.Title>
                                     <p className='small'>Release Date: {movie.release}</p>
