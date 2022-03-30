@@ -82,9 +82,9 @@ const SearchMovies = () => {
 
     return (
         <>
-            <Jumbotron fluid className='text-light bg-dark'>
+            <Jumbotron fluid>
                 <Container>
-                    <h1>Search for Movies!</h1>
+                    <h1>Search For Movies!</h1>
                     <Form onSubmit={handleFormSubmit}>
                         <Form.Row>
                             <Col xs={12} md={8}>
@@ -108,12 +108,12 @@ const SearchMovies = () => {
             </Jumbotron>
 
             <Container>
-                <h2>
+                <h2 class='containermoviestext'>
                     {searchedMovies.length
                         ? `Viewing ${searchedMovies.length} results:`
                         : 'Search for a movie to begin'}
                 </h2>
-                <CardColumns>
+                <CardColumns className='bg-dark'>
                     {searchedMovies.map((movie) => {
                         return (
                         <Card key={movie.movieId} border='dark'>
