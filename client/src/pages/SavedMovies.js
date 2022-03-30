@@ -47,9 +47,9 @@ const SavedMovies = () => {
 
     return (
         <>
-            <Jumbotron fluid className='text-light bg-dark'>
+            <Jumbotron fluid>
                 <Container>
-                    <h1>Viewing saved movies!</h1>
+                    <h1>My Movie Collection</h1>
                 </Container>
             </Jumbotron>
             <Container>
