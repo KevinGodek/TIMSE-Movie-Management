@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Jumbotron, Container, Col, Form, Button, Card, CardColumns } from 'react-bootstrap';
 import { useMutation } from '@apollo/react-hooks';
-
+import logo from '.images/logo.jpg';
 import Auth from '../utils/auth';
 import { SAVE_MOVIE } from '../utils/mutations';
 import { searchTmdbMovies } from '../utils/API';
@@ -143,6 +143,12 @@ const SearchMovies = () => {
             </Container>
         </>
     );
+    function Header() {
+        // Import result is the URL of your image
+        return <img src={logo} alt="Logo" />;
+      }
 };
+
+
 
 export default SearchMovies;
