@@ -109,7 +109,7 @@ const SearchMovies = () => {
             </Jumbotron>
 
             <Container>
-                <h2>
+                <h2 class='containermoviestext'>
                     {searchedMovies.length
                         ? `Viewing ${searchedMovies.length} results:`
                         : 'Search for a movie to begin'}
