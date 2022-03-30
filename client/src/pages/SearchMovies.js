@@ -19,7 +19,6 @@ const SearchMovies = () => {
     const [savedMovieIds, setSavedMovieIds] = useState(getSavedMovieIds());
 
     // set up useEffect hook to save `savedMovieIds` list to localStorage on component unmount
-    // learn more here: https://reactjs.org/docs/hooks-effect.html#effects-with-cleanup
     useEffect(() => {
         return () => saveMovieIds(savedMovieIds);
     });
